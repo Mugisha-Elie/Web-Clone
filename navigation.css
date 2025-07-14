@@ -1,11 +1,14 @@
 .nav-bar{
+    background-color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.8rem 2rem;
+    padding-left: 50px;
+    padding-right: 50px;
     height: 72px; 
     position: sticky;
     top: 0;
+    
     
     
 }
