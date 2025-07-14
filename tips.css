@@ -1,0 +1,98 @@
+.tips{
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+.tip1{
+    background-color: black;
+    width: 450px;
+    height: 150px;
+    border-radius: 20px;
+    display: flex;
+
+    .tip1-info{
+        background-color: rgba(0, 162, 255, 0.959);
+        width: 50%;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        color: white;
+        padding-top: 10px;
+        padding-left: 7px;
+        display: flex;
+        flex-direction: column; 
+        justify-content: space-around;
+    }
+
+    .tip1-image{
+        background: url("/images/hero.jpeg") center/cover;
+        width: 50%;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+}
+
+.tip2{
+    background-color: black;
+     width: 450px;
+    height: 150px;
+    border-radius: 20px;
+    display: flex;
+
+    .tip2-info{
+        background-color: rgba(0, 162, 255, 0.959);
+        width: 50%;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        color: white;
+        padding-top: 10px;
+        padding-left: 7px;
+        display: flex;
+        flex-direction: column; 
+        justify-content: space-around;
+
+
+        .sub-info1{
+            font-size: 10px;
+            font-weight: lighter;
+        }
+    }
+
+    .tip2-image{
+        background: url("/images/hero.jpeg") center/cover;
+        width: 50%;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+}
+
+.tip3{
+    background-color: black;
+     width: 450px;
+    height: 150px;
+    border-radius: 20px;
+    display: flex;
+
+    .tip3-info{
+        background-color: rgba(0, 162, 255, 0.959);
+        width: 50%;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        color: white;
+        padding-top: 10px;
+        padding-left: 7px;
+        display: flex;
+        flex-direction: column; 
+        justify-content: space-around;
+    }
+
+    .tip3-image{
+        background: url("/images/hero.jpeg") center/cover;
+        width: 50%;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+}
