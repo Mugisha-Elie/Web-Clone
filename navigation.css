@@ -3,7 +3,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 0.8rem 2rem;
-    height: 72px;
+    height: 72px; 
+    position: sticky;
+    top: 0;
+    
     
 }
 
@@ -16,6 +19,7 @@
 .nav-links{
     list-style: none;
     display: flex;
+    align-items: center;
     gap: 2rem;
 }
 
@@ -25,4 +29,18 @@
     font-weight: 500;
     position: relative;
 
+}
+.navbar-button{
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    width:150px;
+    display: flex;
+    align-items: center;
+
+    span{
+        width: 20px;
+        color: #0000ff;
+    }
 }
