@@ -1,0 +1,79 @@
+.weekend-trips{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.weekends-trips-title{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.weekend-trips-card{
+    display:flex;
+    gap: 7px;
+    justify-content: space-around;
+    
+
+}
+
+.wt-card-1{
+    background: url("/images/cards-2.jpeg") center/cover;
+    height: 200px;
+    width: 270px;
+    border-radius: 20px;
+}
+
+.wt-card-2{
+    background: url("/images/cards-2.jpeg") center/cover;
+    height: 200px;
+    width: 270px;
+    border-radius: 20px;
+}
+
+.wt-card-3{
+    background: url("/images/cards-2.jpeg") center/cover;
+    height: 200px;
+    width: 270px;
+    border-radius: 20px;
+}
+
+.wt-card-4{
+    background: url("/images/cards-2.jpeg") center/cover;
+    height: 200px;
+    width: 270px;
+    border-radius: 20px;
+}
+
+.weekend-trips-card-info{
+    display: flex;
+    padding: 20px;
+
+}
+
+.info-container1{
+    width: 270px;
+    height: 200px;
+    padding: 10px
+}
+
+.info-container2{
+    width: 270px;
+    height: 200px;
+    padding: 10px;
+    margin-left: 50px; 
+}
+
+.info-container3{
+    width: 270px;
+    height: 200px;
+    padding: 10px;
+    margin-left: 50px; 
+}
+
+.info-container4{
+    width: 270px;
+    height: 200px;
+    padding: 10px;
+    margin-left: 50px; 
+}
