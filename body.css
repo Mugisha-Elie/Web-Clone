@@ -15,5 +15,14 @@ body{
     
     width: 700px;
     height: 300px;
-    background: url("")
+    background: url("/images/sand.jpeg") center/cover;
+    border-radius: 20px;
+}
+
+.wf-card-2{
+    
+    width: 700px;
+    height: 300px;
+    background: url("/images/beach.jpeg") center/cover;
+    border-radius: 20px;
 }
